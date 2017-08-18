@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-image: url("../htmlfundamentals/img/beach.jpg");
+	background-image: url("../img/beach.jpg");
 	background-attachment: fixed;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .customDiv4 {
-	background-image: url("../htmlfundamentals/img/small_beach.jpg");
+	background-image: url("../img/small_beach.jpg");
 	border: 3px ridge grey;
 	width: 140px;
 	margin: 10px;
