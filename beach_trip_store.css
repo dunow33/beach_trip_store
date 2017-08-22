@@ -61,7 +61,7 @@ body {
 }
 
 .customDiv4 {
-	background-image: url("./img/small_beach.jpg");
+	background-image: url("img/small_beach.jpg");
 	border: 3px ridge grey;
 	width: 140px;
 	margin: 10px;
@@ -77,12 +77,11 @@ body {
 	margin: auto;
 }
 
+
 .footerDiv {
-	position: absolute;
-	 display: table-cell;
-	 
+	position: relative;
 	text-align: right;
-	font-size: 46pt;
+	font-size: 14pt;
 	font-style: italic;
 	width: 100%;
 	height: 350px;
@@ -93,33 +92,33 @@ body {
     background: linear-gradient(blue, grey); /* Standard syntax */
 }
 
+.container {
+	font-size: 14pt;
+	position: absolute;
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+	top: 80px;
+	border-radius: 10px;
+	left: 10px;
+	height: 225px;
+	width: 400px;
+	background-color: white;
+}
+
 .rainbow {
-	position: relative;
-	display: inline-block;
-	top: 240px;
-    //vertical-align: bottom;
+	position: absolute;
+	top: 215px;
+	right: 5px;
+	font-size: 46pt;
+	font-style: italic;
 	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   color:transparent;
   -webkit-background-clip: text;
 }
 
-span {
-	font-size: 20pt;
-	font-weight: bold;
-	position: relative;
-	left: -320px;
-	top: 40px;
-}
-
-.container {
-	position: relative;
-	display: inline-block;
-	//vertical-align: middle;
-	top: 80px;
-	border-radius: 10px;
-	left: -670px;
-	height: 225px;
-	width: 400px;
-	background-color: white;
+.image.fit {
+			display: block;
+			margin: 2.5rem 0;
+			width: 100%;
 }
