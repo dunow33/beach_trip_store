@@ -5,11 +5,6 @@ body {
 	background-attachment: fixed;
 }
 
-/*.topSurroundingDiv {
-	width: 100%;
-	background: grey;
-}*/
-
 .customDiv1 {
 	font-size: 24pt;
 	color: white;
@@ -60,11 +55,38 @@ body {
 	text-align: center;
 }
 
-.customDiv4 {
+.customDivBox1 {
 	background-image: url("img/small_beach.jpg");
 	border: 3px ridge grey;
 	width: 140px;
-	margin: 10px;
+	margin: 18px;
+	height: 90px;
+	display: inline-block;
+}
+
+.customDivBox2 {
+	background-image: url("img/beach5.jpg");
+	border: 3px ridge grey;
+	width: 140px;
+	margin: 18px;
+	height: 90px;
+	display: inline-block;
+}
+
+.customDivBox3 {
+	background-image: url("img/caribbeanPool.jpg");
+	border: 3px ridge grey;
+	width: 140px;
+	margin: 18px;
+	height: 90px;
+	display: inline-block;
+}
+
+.customDivBox4 {
+	background-image: url("img/maldives.jpg");
+	border: 3px ridge grey;
+	width: 140px;
+	margin: 18px;
 	height: 90px;
 	display: inline-block;
 }
@@ -95,14 +117,20 @@ body {
 .container {
 	font-size: 14pt;
 	position: absolute;
-	/*display: inline-block;*/
-	/*vertical-align: middle;*/
 	top: 80px;
 	border-radius: 10px;
 	left: 10px;
 	height: 225px;
 	width: 400px;
 	background-color: white;
+}
+
+h1 {
+	padding-right: 120px;
+}
+
+form {
+	padding-right: 160px;
 }
 
 .rainbow {
@@ -115,10 +143,4 @@ body {
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   color:transparent;
   -webkit-background-clip: text;
-}
-
-.image.fit {
-			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
 }
